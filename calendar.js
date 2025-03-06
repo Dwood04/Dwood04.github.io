@@ -87,7 +87,7 @@ function dateClicked(day) {
 
   var selectedDate = new Date(currentYear, currentMonth, day);
   var formattedDate = (selectedDate.getMonth() + 1).toString().padStart(2, '0') + '/' + selectedDate.getDate().toString().padStart(2, '0') + '/' + selectedDate.getFullYear();
-  
+  document.querySelector(".task-header h2").innerText = "Tasks for " + formattedDate;
 
   var html = "<h3>Tasks for " + formattedDate + "</h3>";
   for (var i = 0; i < TaskList.length; i++) {
