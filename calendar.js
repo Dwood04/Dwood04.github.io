@@ -139,7 +139,7 @@ function myFunction1() {
 }
 
 function changeBackground() {
-  document.body.style.backgroundImage = "url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FJujutsufolk%2Fcomments%2F18gg6l2%2Fyou_have_24_hours_to_debunk_this_plot_hole_sukuna%2F&psig=AOvVaw1A-P-ZshnQIjnGfquo1kTH&ust=1741339952381000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDoioCT9YsDFQAAAAAdAAAAABAE)";
+  document.body.style.backgroundImage = "url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FJujutsufolk%2Fcomments%2F18gg6l2%2Fyou_have_24_hours_to_debunk_this_plot_hole_sukuna%2F&psig=AOvVaw1A-P-ZshnQIjnGfquo1kTH&ust=1741339952381000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDoioCT9YsDFQAAAAAdAAAAABAE')";
   document.body.style.backgroundSize = "cover";
   document.body.style.backgroundRepeat = "no-repeat";
 }
